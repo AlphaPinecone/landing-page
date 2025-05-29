@@ -8,11 +8,6 @@
   margin: 0px;
 }
 
-img {
-  width: 300px;
-  height: 300px;
-}
-
 .nav,
 .topsec,
 footer {
@@ -32,14 +27,52 @@ a:hover {
 }
 /**top sections**/
 .topsec {
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 200px;
+  padding-right: 200px;
+  height: 300px;
   display: flex;
 }
+.front {
+  height: 75%;
+  width: 500px;
+  margin-right: 0;
+  margin-left: auto;
+}
+.topsec .container {
+  height: 75%;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
 
+  justify-content: flex-start;
+}
+.topsec .container h1 {
+  font-size: 48px;
+  color: white;
+}
 .topsec button {
   background-color: #3882f6;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  font-weight: 500;
+  margin-right: auto;
+  margin-left: 0;
+  margin-top: 5px;
 }
+.topsec button:hover {
+  color: orange;
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+p {
+  margin: 0;
+  padding: 0;
+  color: lightgray;
+  font-size: 18px;
+}
+
 header {
   color: white;
   font-size: 18px;
@@ -51,8 +84,8 @@ header h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 200px;
+  padding-right: 200px;
   padding-top: 20px;
   padding-bottom: 40px;
 }
@@ -72,7 +105,7 @@ header h1 {
   align-items: center;
 }
 
-.container {
+.midsec .container {
   display: flex;
   width: 300px;
   gap: 30px;
