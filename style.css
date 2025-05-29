@@ -13,9 +13,7 @@
 footer {
   background-color: #1f2937;
 }
-.quote {
-  background-color: #e5e7eb;
-}
+
 a {
   text-decoration: none;
   color: white;
@@ -116,6 +114,35 @@ img.thumb {
   height: 100px;
   border-radius: 25px;
   border: solid #3882f6 3px;
+}
+/**quote section**/
+.quote {
+  background-color: #e5e7eb;
+}
+.quote .container {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 100px;
+
+  width: auto;
+  height: auto;
+  display: flex;
+}
+.quote p {
+  color: #1f2937;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 36px;
+  text-wrap: wrap;
+}
+.author {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
 }
 /**bottom section**/
 
