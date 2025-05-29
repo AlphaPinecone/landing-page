@@ -59,7 +59,8 @@ a:hover {
   margin-top: 5px;
 }
 .topsec button:hover {
-  color: orange;
+  color: #3882f6;
+  background-color: white;
   transition: 0.2s;
   transform: scale(1.1);
 }
@@ -100,20 +101,38 @@ header h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 
-.midsec .container {
+.midsec .container2 {
   display: flex;
-  width: 300px;
   gap: 30px;
-  align-items: center;
+  height: 300px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.midsec h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
 }
 
 img.thumb {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 25px;
   border: solid #3882f6 3px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
 }
 /**quote section**/
 .quote {
@@ -139,6 +158,7 @@ img.thumb {
   padding-left: 200px;
   padding-right: 200px;
   padding-bottom: 100px;
+  padding-top: 10px;
   width: auto;
   display: flex;
   justify-content: flex-end;
@@ -167,9 +187,11 @@ h4 {
 }
 .right {
   margin-right: 50px;
+  padding-top: 42px;
 }
 .left {
   margin-left: 50px;
+  padding-top: 40px;
 }
 .right button {
   background-color: #3882f6;
